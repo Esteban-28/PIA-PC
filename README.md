@@ -55,65 +55,81 @@ https://github.com/Esteban-28/PIA-PC/blob/main/LICENSE
 ## funciones module
 
 ### funciones.apiArch(api_file)
+```
    Analiza archivos propios y determina si son seguros.
     Parametros:
         api_file (str):       Archivo que se desea Analizar.
     Invocacion:
         -af api_file
+```
 
 ### funciones.apiArchH(hash)
+```
    Analiza un HASH para determinar si es seguro.
     Parametros:
         hash (str):     HASH que se desea Analizar
     Invocacion:
         -afh hash
+```
 
 ### funciones.apiUrl(ind)
+```
    Analiza si una URL es segura.
     Parametros:
         ind (str):      URL que se desea Analizar
         
    Invocacion:
         -au ind
+```
 
 ### funciones.cifrado()
+```
    Cifra el archivo generado en otra funcion.
     Parametros:         No necesita parametros.
     
    Invocacion:
         Se ejecuta por si solo, no por separado.
+```
 
 ### funciones.descifrado()
+```
    Cifra el archivo generado en otra funcion.
     Parametros:         No necesita parametros.
     
    Invocacion:
         Se ejecuta por si solo, no por separado.
+```
 
 ### funciones.email()
+```
    Envio de emails.
     Parametros:         No necesita parametros.
     
    Invocacion:
         Se ejecuta por si solo, no por separado.
+```
 
 ### funciones.net_os(rex)
+```
    Detecta el OS en que se esta trabajando y escanea las subredes.
     Parameters:
         rex (str):      Opcion seleccionada
+```
 
 ### funciones.obtHash(inFile)
+```
    Genera el SHA-256 de un archivo.
     Parametros:
         inFile (str):   Archivo de que se desea generar el HASH
         
    Invocacion:
         -af inFile
-
+```
 
 # webscraping module
 
 ### webscraping.webscraping(url, x)
+```
    Hace webscraping para buscar emails o telefonos.
     Parametros:
         url (str):      URL deseada
@@ -121,5 +137,6 @@ https://github.com/Esteban-28/PIA-PC/blob/main/LICENSE
         
    Invocacion:
         -wb url x
+ ```
 
 
