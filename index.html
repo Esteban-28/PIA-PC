@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PIA_PC 1.00 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="#" class="icon icon-home"> PIA_PC
+          </a>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Introduccion:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-introduction">Presentacion</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-modules">PIA</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">PIA_PC</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+      <li>PIA_PC 1.00 documentation</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="bienvenidos-a-la-documentacion-de-pia-pc">
+<h1>Bienvenidos a la documentacion de PIA_PC’!<a class="headerlink" href="#bienvenidos-a-la-documentacion-de-pia-pc" title="Permalink to this headline"></a></h1>
+<div class="toctree-wrapper compound" id="introduccion">
+<span id="document-introduction"></span><section id="presentacion">
+<h2>Presentacion<a class="headerlink" href="#presentacion" title="Permalink to this headline"></a></h2>
+<blockquote>
+<div><p>Este script esta pensado para agilizar las tareas de ciberseguridad que nos pueden
+servir para algun analisis de riesgo, asi como, tiene la intencion de aplicar lo
+aprendido en las clases de Programacion para Ciberseguridad, contiene:</p>
+</div></blockquote>
+<hr class="docutils" />
+<blockquote>
+<div><ul class="simple">
+<li><p>Analisis de subredes</p></li>
+<li><p>Obtencion de hashes</p></li>
+<li><p>Envio de correos electronicos</p></li>
+<li><p>Etc.</p></li>
+</ul>
+</div></blockquote>
+<section id="autores">
+<h3>Autores<a class="headerlink" href="#autores" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Esteban Osorio Rodriguez</p></li>
+<li><p>Daniel Ernesto Rangel Perez</p></li>
+</ul>
+</section>
+</section>
+</div>
+<div class="toctree-wrapper compound">
+<span id="document-modules"></span><section id="pia">
+<h2>PIA<a class="headerlink" href="#pia" title="Permalink to this headline"></a></h2>
+<div class="toctree-wrapper compound">
+<span id="document-funciones"></span><section id="module-funciones">
+<span id="funciones-module"></span><h3>funciones module<a class="headerlink" href="#module-funciones" title="Permalink to this headline"></a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="funciones.apiArch">
+<span class="sig-prename descclassname"><span class="pre">funciones.</span></span><span class="sig-name descname"><span class="pre">apiArch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">api_file</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#funciones.apiArch" title="Permalink to this definition"></a></dt>
+<dd><p>Analiza archivos propios y determina si son seguros.</p>
+<dl class="simple">
+<dt>Parametros:</dt><dd><dl class="field-list simple">
+<dt class="field-odd">api_file (str)</dt>
+<dd class="field-odd"><p>Archivo que se desea Analizar.</p>
+</dd>
+</dl>
+</dd>
+<dt>Invocacion:</dt><dd><p>-af api_file</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="funciones.apiArchH">
+<span class="sig-prename descclassname"><span class="pre">funciones.</span></span><span class="sig-name descname"><span class="pre">apiArchH</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">hash</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#funciones.apiArchH" title="Permalink to this definition"></a></dt>
+<dd><p>Analiza un HASH para determinar si es seguro.</p>
+<dl class="simple">
+<dt>Parametros:</dt><dd><dl class="field-list simple">
+<dt class="field-odd">hash (str)</dt>
+<dd class="field-odd"><p>HASH que se desea Analizar</p>
+</dd>
+</dl>
+</dd>
+<dt>Invocacion:</dt><dd><p>-afh hash</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="funciones.apiUrl">
+<span class="sig-prename descclassname"><span class="pre">funciones.</span></span><span class="sig-name descname"><span class="pre">apiUrl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ind</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#funciones.apiUrl" title="Permalink to this definition"></a></dt>
+<dd><p>Analiza si una URL es segura.</p>
+<dl class="simple">
+<dt>Parametros:</dt><dd><dl class="field-list simple">
+<dt class="field-odd">ind (str)</dt>
+<dd class="field-odd"><p>URL que se desea Analizar</p>
+</dd>
+</dl>
+</dd>
+<dt>Invocacion:</dt><dd><p>-au ind</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="funciones.cifrado">
+<span class="sig-prename descclassname"><span class="pre">funciones.</span></span><span class="sig-name descname"><span class="pre">cifrado</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#funciones.cifrado" title="Permalink to this definition"></a></dt>
+<dd><p>Cifra el archivo generado en otra funcion.</p>
+<dl class="simple">
+<dt>Parametros:</dt><dd><p>No necesita parametros.</p>
+</dd>
+<dt>Invocacion:</dt><dd><p>Se ejecuta por si solo, no por separado.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="funciones.descifrado">
+<span class="sig-prename descclassname"><span class="pre">funciones.</span></span><span class="sig-name descname"><span class="pre">descifrado</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#funciones.descifrado" title="Permalink to this definition"></a></dt>
+<dd><p>Cifra el archivo generado en otra funcion.</p>
+<dl class="simple">
+<dt>Parametros:</dt><dd><p>No necesita parametros.</p>
+</dd>
+<dt>Invocacion:</dt><dd><p>Se ejecuta por si solo, no por separado.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="funciones.email">
+<span class="sig-prename descclassname"><span class="pre">funciones.</span></span><span class="sig-name descname"><span class="pre">email</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#funciones.email" title="Permalink to this definition"></a></dt>
+<dd><p>Envio de emails.</p>
+<dl class="simple">
+<dt>Parametros:</dt><dd><p>No necesita parametros.</p>
+</dd>
+<dt>Invocacion:</dt><dd><p>Se ejecuta por si solo, no por separado.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="funciones.net_os">
+<span class="sig-prename descclassname"><span class="pre">funciones.</span></span><span class="sig-name descname"><span class="pre">net_os</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rex</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#funciones.net_os" title="Permalink to this definition"></a></dt>
+<dd><p>Detecta el OS en que se esta trabajando y escanea las subredes.</p>
+<dl class="simple">
+<dt>Parameters:</dt><dd><dl class="field-list simple">
+<dt class="field-odd">rex (str)</dt>
+<dd class="field-odd"><p>Opcion seleccionada</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="funciones.obtHash">
+<span class="sig-prename descclassname"><span class="pre">funciones.</span></span><span class="sig-name descname"><span class="pre">obtHash</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">inFile</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#funciones.obtHash" title="Permalink to this definition"></a></dt>
+<dd><p>Genera el SHA-256 de un archivo.</p>
+<dl class="simple">
+<dt>Parametros:</dt><dd><dl class="field-list simple">
+<dt class="field-odd">inFile (str)</dt>
+<dd class="field-odd"><p>Archivo de que se desea generar el HASH</p>
+</dd>
+</dl>
+</dd>
+<dt>Invocacion:</dt><dd><p>-af inFile</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<span id="document-webscraping"></span><section id="module-webscraping">
+<span id="webscraping-module"></span><h3>webscraping module<a class="headerlink" href="#module-webscraping" title="Permalink to this headline"></a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="webscraping.webscraping">
+<span class="sig-prename descclassname"><span class="pre">webscraping.</span></span><span class="sig-name descname"><span class="pre">webscraping</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#webscraping.webscraping" title="Permalink to this definition"></a></dt>
+<dd><p>Hace webscraping para buscar emails o telefonos.</p>
+<dl class="simple">
+<dt>Parametros:</dt><dd><dl class="field-list simple">
+<dt class="field-odd">url (str)</dt>
+<dd class="field-odd"><p>URL deseada</p>
+</dd>
+<dt class="field-even">x (str)</dt>
+<dd class="field-even"><p>La opcion a buscar</p>
+</dd>
+</dl>
+</dd>
+<dt>Invocacion:</dt><dd><p>-wb url x</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+</div>
+</section>
+</div>
+</section>
+<section id="indices-y-tablas">
+<h1>Indices y tablas<a class="headerlink" href="#indices-y-tablas" title="Permalink to this headline"></a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+</ul>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, WI-FI BOTZ.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
