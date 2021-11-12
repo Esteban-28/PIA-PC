@@ -1,0 +1,13 @@
+#!/bin/bash
+
+ip=$(hostname -I|awk -F. '{print $1"."$2"."$3"."}')
+
+function netscan() {
+	ping -c 1 $1 > /dev/null 2>&1
+	[ $? -eq 0 ] && echo "Node with IP: $i is up."
+}
+
+for i in "$ip"{1..255}
+do
+	netscan $i & disown
+done
